@@ -55,7 +55,7 @@ CREATE TABLE usuarios (
 -- Insertar un registro de ejemplo
 INSERT INTO usuarios (correo, pass, nombre, apaterno, amaterno, fecha_registro, activo)
 VALUES (
-    'alfaro@unach.mx',
+    'alfaro@ejemplo.mx',
     '$2y$10$mYddklb45JAQdf6pK5Ovg.rUeKr4Jirn5H9pPPDzjQTLHzLKhxzdu', -- Contraseña encriptada con bcrypt
     'Alfaro',
     'Perez',
